@@ -1,0 +1,210 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #b4c2da;
+  align-items: center;
+  font-family: var(--fontBarlow);
+  font-weight: 400;
+  font-size: 1em;
+  color: #fff;
+  height: 70px
+}
+
+.menuDesktop{
+  display: flex;
+  flex: 1;
+}
+
+.container__menu{
+  flex: 1;
+}
+
+.menu{
+  display: flex;
+}
+
+.menuItems{
+  padding: 10px;
+}
+
+.menuItems:hover{
+  color: #3200FB;
+  font-size: 1.05em;
+}
+
+.containerPesquisa{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.inputPesquisa{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: .8em;
+  padding: 10px;
+  color: #000;
+}
+
+.inputPesquisa:hover, .inputPesquisa:focus{
+  border: none;
+  outline: none;
+}
+
+.botaoPesquisa{
+  position: absolute;
+  left: 148px;
+  color: #3200FB;;
+}
+
+.containerCadastro{
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  font-weight: 900;
+}
+
+.botaoCadastro{
+  border: 1px solid #fff;
+  width: 130px;
+  padding: 5px;
+}
+
+.botaoLogin:hover{
+  font-size: 1.1em;
+  color: #3200FB;
+}
+
+.botaoCadastro:hover{
+  font-size: 1.1em;
+  color: #3200FB;
+  border: 1px solid #3200FB;;
+}
+
+
+/* Configurações Mobile */
+
+.menuMobile{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+  background-color: #b4c2da;
+  transition: .5s;
+}
+
+.containerMobilePesquisa{
+  display: flex;
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.inputMobilePesquisa{
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.inputMobilePesquisa:hover , .inputMobilePesquisa:focus{
+  border: none;
+  outline: none;
+}
+
+.botaoMobilePesquisa{
+  margin-right: 10px;
+  color: #3200FB;
+}
+
+.menuMobileList{
+  width: 90%;
+  margin-bottom: 10px;
+  font-family: var(--fontBarlow);
+  font-weight: 400;
+  font-size: 1em;
+  color: #fff;
+}
+
+.menuMobileItems{
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  font-weight: 500;
+}
+
+.menuMobileItems:hover{
+  color: #3200FB;
+  font-size: 1.05em;
+  border-bottom: 1px solid #3200FB;
+}
+
+.containerMobileCadastro{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 30px;
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #fff;
+}
+
+.botaoMobileLogin{
+  margin-bottom: 10px;
+}
+
+.botaoMobileCadastro{
+  border: 1px solid #fff;
+  width: 130px;
+  padding: 5px;
+}
+
+.botaoMobileLogin:hover{
+  color: #3200FB;
+}
+
+.botaoMobileCadastro:hover{
+  color: #3200FB;
+  border: 1px solid #3200FB;;
+}
+
+.botaoMenuMobile{
+  display: none;
+  width: 40px;
+  margin-right: 15px;
+}
+
+.desabilitar{
+  display: none;
+}
+
+.habilitar{
+  display: flex;
+}
+
+@media (max-width: 970px){
+  .botaoMenuMobile{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menuDesktop{
+    display: none;
+  }  
+}
+
+@media (min-width: 970px){
+  .menuMobile{
+    display: none;
+  }
+}
