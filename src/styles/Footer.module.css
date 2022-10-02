@@ -1,0 +1,109 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    background-color: var(--corAzulClaro);
+}
+
+.footer__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    background-color: var(--corAzulEscuro);
+    color: #fff;
+}
+
+.footer__anoCopyright{
+    font-family: var(--fontBarlow);
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.footer__linkTermos{
+    font-family: var(--fontBarlow);
+    font-weight: 100;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.footer__containerMenu{
+    position: relative;
+    display: flex;
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.footer__menuItems{
+    font-family: var(--fontBarlow);
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer__menuComDoisItens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+    cursor: pointer;
+}
+
+.footer__containerIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    width: 250px;
+}
+
+.footer__iconSocialMedia{
+    cursor: pointer;
+}
+
+.footer__primeiraLinhaMenu{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    border: 1px solid #CBC9C9;
+}
+
+.footer__segundaLinhaMenu{
+    width: 100%;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    border: 1px solid #CBC9C9;
+}
+
+.footer__terceiraLinhaMenu{
+    width: 100%;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    border: 1px solid #CBC9C9;
+}
+
+
+@media (max-width: 600px) {
+    .footer__containerIcons{
+        margin: 40px 0px 20px 0px;
+    }
+
+}

@@ -159,6 +159,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 35px;
+    cursor: pointer;
 }
 
 .main__tituloDuvida{
@@ -176,8 +177,6 @@
     align-items: center;
     justify-content: center;
     margin: 45px 0px 0px 0px;
-    padding: 15px;
-
 }
 
 .main__containerOpiniao{

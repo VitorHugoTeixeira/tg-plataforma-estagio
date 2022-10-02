@@ -45,24 +45,30 @@ export default function ConteudoPrincipal() {
                     <Image src={imagemEquipe} className={styles.main__imagemEquipe} />
                     <div className={styles.main__containerDuvidas}>
                         <section className={styles.main__secaoDuvida}>
-                            <div className={styles.main__containerTituloDuvida}>
-                                <h3 className={styles.main__tituloDuvida}>Como pesquisar Vagas de estágio?</h3>
-                                {iconeSetaDireita}
-                            </div>
+                            <Link href='/'>
+                                <div className={styles.main__containerTituloDuvida}>
+                                    <h3 className={styles.main__tituloDuvida}>Como pesquisar Vagas de estágio?</h3>
+                                    {iconeSetaDireita}
+                                </div>
+                            </Link>
                             <hr className={styles.main__linhaDuvida} />
                         </section>
                         <section className={styles.main__secaoDuvida}>
-                            <div className={styles.main__containerTituloDuvida}>
-                                <h3 className={styles.main__tituloDuvida}>Como se cadastrar no P.E?</h3>
-                                {iconeSetaDireita}
-                            </div>
+                            <Link href='/'>
+                                <div className={styles.main__containerTituloDuvida}>
+                                    <h3 className={styles.main__tituloDuvida}>Como se cadastrar no P.E?</h3>
+                                    {iconeSetaDireita}
+                                </div>
+                            </Link>
                             <hr className={styles.main__linhaDuvida} />
                         </section>
                         <section className={styles.main__secaoDuvida}>
-                            <div className={styles.main__containerTituloDuvida}>
-                                <h3 className={styles.main__tituloDuvida}>Como enviar a documentação do estágio?</h3>
-                                {iconeSetaDireita}
-                            </div>
+                            <Link href='/'>
+                                <div className={styles.main__containerTituloDuvida}>
+                                    <h3 className={styles.main__tituloDuvida}>Como enviar a documentação do estágio?</h3>
+                                    {iconeSetaDireita}
+                                </div>
+                            </Link>
                             <hr className={styles.main__linhaDuvida} />
                         </section>
                     </div>
@@ -71,8 +77,7 @@ export default function ConteudoPrincipal() {
             <aside className={styles.main__conteudoOpiniao}>
                 <div className={styles.main__containerOpiniao}>
                     <h2 className={styles.main__tituloPergunta}>O que acham de nós?</h2>
-                    <p className={styles.main_opiniao}>"Depois de muitas horas de correções de documentos finalmente temos uma plataforma que facilite a comunicação entre a empresa e o usuário.
-                        "</p>
+                    <p className={styles.main_opiniao}>"Depois de muitas horas de correções de documentos finalmente temos uma plataforma que facilite a manutenção dos estágios dos alunos".</p>
                     <p className={styles.main__conclusaoOpiniao}>Obrigada PE.com!</p>
                     <h4 className={styles.main__nomeUsuario}>Maria José</h4>
                 </div>
