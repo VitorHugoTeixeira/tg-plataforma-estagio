@@ -1,7 +1,7 @@
 .container{
   display: flex;
   justify-content: space-between;
-  background-color: #b4c2da;
+  background-color: var(--corAzulClaro);
   align-items: center;
   font-family: var(--fontBarlow);
   font-weight: 400;
@@ -28,7 +28,7 @@
 }
 
 .menuItems:hover{
-  color: #3200FB;
+  color: var(--corAzulEscuro);
   font-size: 1.05em;
 }
 
@@ -62,7 +62,7 @@
 .botaoPesquisa{
   position: absolute;
   left: 148px;
-  color: #3200FB;;
+  color: var(--corAzulEscuro);;
 }
 
 .containerCadastro{
@@ -80,13 +80,13 @@
 
 .botaoLogin:hover{
   font-size: 1.1em;
-  color: #3200FB;
+  color: var(--corAzulEscuro);
 }
 
 .botaoCadastro:hover{
   font-size: 1.1em;
-  color: #3200FB;
-  border: 1px solid #3200FB;;
+  color: var(--corAzulEscuro);
+  border: 1px solid var(--corAzulEscuro);;
 }
 
 
@@ -125,7 +125,7 @@
 
 .botaoMobilePesquisa{
   margin-right: 10px;
-  color: #3200FB;
+  color: var(--corAzulEscuro);
 }
 
 .menuMobileList{
@@ -144,9 +144,9 @@
 }
 
 .menuMobileItems:hover{
-  color: #3200FB;
+  color: var(--corAzulEscuro);
   font-size: 1.05em;
-  border-bottom: 1px solid #3200FB;
+  border-bottom: 1px solid var(--corAzulEscuro);
 }
 
 .containerMobileCadastro{
@@ -170,12 +170,12 @@
 }
 
 .botaoMobileLogin:hover{
-  color: #3200FB;
+  color: var(--corAzulEscuro);
 }
 
 .botaoMobileCadastro:hover{
-  color: #3200FB;
-  border: 1px solid #3200FB;;
+  color: var(--corAzulEscuro);
+  border: 1px solid var(--corAzulEscuro);;
 }
 
 .botaoMenuMobile{

@@ -8,6 +8,8 @@
 :root{
   --fontBarlow: 'Barlow', sans-serif;
   --fontSource: 'Source Serif Pro', serif;
+  --corAzulClaro: #b4c2da;
+  --corAzulEscuro: #3200FB
 }
 
 html,
@@ -15,6 +17,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Barlow', 'sans-serif';
+  height: 100vh;
+  width: 100%;
 }
 
 a {
