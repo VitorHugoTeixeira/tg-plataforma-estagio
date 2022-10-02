@@ -13,6 +13,7 @@
 .menuDesktop{
   display: flex;
   flex: 1;
+  align-items: center;
 }
 
 .container__menu{
@@ -25,44 +26,13 @@
 
 .menuItems{
   padding: 10px;
+  font-size: 1.2em;
+  font-family: var(--fontBarlow);
 }
 
 .menuItems:hover{
   color: var(--corAzulEscuro);
-  font-size: 1.05em;
-}
-
-.containerPesquisa{
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 180px;
-  height: 40px;
-  border-radius: 5px;
-  margin-right: 20px;
-  padding: 5px;
-  background-color: #fff;
-}
-
-.inputPesquisa{
-  position: absolute;
-  width: 150px;
-  height: 40px;
-  border-radius: 5px;
-  font-size: .8em;
-  padding: 10px;
-  color: #000;
-}
-
-.inputPesquisa:hover, .inputPesquisa:focus{
-  border: none;
-  outline: none;
-}
-
-.botaoPesquisa{
-  position: absolute;
-  left: 148px;
-  color: var(--corAzulEscuro);;
+  font-size: 1.4em;
 }
 
 .containerCadastro{
